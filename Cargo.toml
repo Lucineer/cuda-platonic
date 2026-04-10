@@ -1,0 +1,8 @@
+[package]
+name = "cuda-platonic"
+version = "0.1.0"
+edition = "2021"
+description = "Platonic forms — ideal type templates that agents instantiate, measure deviation from, and evolve toward"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
